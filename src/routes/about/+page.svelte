@@ -11,7 +11,7 @@
 
 	<p>
 
-		There are some things impossible to quantify. The deliciousness of your grandma’s
+		There are some things impossible to quantify. The deliciousness of your grandmas
 		 cookies, or how exciting it is to train a neural network, for example. 
 		 But financial markets are made of numbers – among other things. They 
 		 should be measurable, quantifiable. Nobody said it would be easy. But we dare.
@@ -20,7 +20,7 @@
 
 	<p>
 
-		But, what’s ETS Asset Management Factory? The clue is in the name. We’re a factory,
+		But, what is ETS Asset Management Factory? The clue is in the name. we are a factory,
 		 of course. In a nutshell, we build algorithmic investment strategies.
 		  We apply our Math and Computer Science to design and improve systematic
 		   quantitative methodologies for our risk and asset management solutions.

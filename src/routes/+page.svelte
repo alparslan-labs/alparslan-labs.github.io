@@ -1,18 +1,16 @@
 <script>
-    import Counter from './Counter.svelte';
+    //import { base } from "$app/paths";
     import nnetfast from '$lib/images/nnetfast.gif';
     import nnetslow from '$lib/images/nnetslow.gif';    
     import hyperplane from '$lib/images/hyperplane.gif';
-    import hyperplane2 from '$lib/images/hyperplanelowdim2.gif';
+    /*import hyperplane2 from '$lib/images/hyperplanelowdim2.gif';
     import charts2 from '$lib/images/charts2.png';
-    import workdesk from '$lib/images/workdesk2.png';
     import portfolio from '$lib/images/portfopt.png';
     import portfolio2 from '$lib/images/portfopt2.png';
-    import riskml from '$lib/images/riskclusters.png';
-    import oracle from '$lib/images/oracle.gif';
+    import riskml from '$lib/images/riskclusters.png';*/
     import code from '$lib/images/code.gif';
     import logo from '$lib/images/logo-desktop.png';
-    import graph1 from '$lib/images/datagraph1.gif';
+    //import graph1 from '$lib/images/datagraph1.gif';
     import graph2 from '$lib/images/datagraph2.gif';
     import bggraphic from '$lib/images/hand-analytics.png';
 </script>
@@ -60,7 +58,7 @@
     <br>
     <br>-->
     <section class="graphic" style="pointer-events: none;">
-        <img class="overlay" alt="alt" src={nnetfast} draggable=False style="width:280px; height:auto;">
+        <img class="overlay" alt="alt" src={nnetfast} draggable=false style="width:280px; height:auto;">
         <img src={hyperplane} alt="alt" style="width:280px; height:auto;">   
         <link href="tablogo">
     </section>
@@ -128,7 +126,6 @@
                 limited risk. It is characterized by diversificaiton and robust out-of-sample performance
                 when compared to hitherto techniques used in portfolio management. 
             </p>
-            <img class="zoom" src={workdesk} alt="alt" style="width:250px; height:auto;">
         </div>
         <div>
             <h3>Go autopilot.</h3>
@@ -177,12 +174,12 @@
                             </p>
                         </td> 
                         <td>
-                        <img class="zoom" src={logo} alt="alt" draggable=False style="width:200px; height:auto; pointer-events: none;">
+                        <img class="zoom" src={logo} alt="alt" draggable=false style="width:200px; height:auto; pointer-events: none;">
                     </td>
                 </tr>
                 <tr>
                     <td>        
-                        <img class="zoom" src={code} alt="alt" draggable=False style="width:200px; height:auto;">
+                        <img class="zoom" src={code} alt="alt" draggable=false style="width:200px; height:auto;">
                     </td>
                     <td>
 						<h4>QADR</h4>
@@ -315,9 +312,6 @@
     @media (max-width: 768px) { /* Adjust the max-width as needed */
         .image-grid {
             grid-template-columns: 1fr; /* Change to 1 column for smaller screens */
-        }
-        section {
-            /*margin-right: 15px;*/
         }
     }
 

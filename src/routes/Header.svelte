@@ -3,7 +3,6 @@
 	//import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
 	import logo from '$lib/images/eagle.png'
-	import SideBarNav from '../components/SideBarNav.svelte';
 </script>
 
 
