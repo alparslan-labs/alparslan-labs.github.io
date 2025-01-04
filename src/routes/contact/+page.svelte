@@ -1,0 +1,89 @@
+<svelte:head>
+	<title>About</title>
+	<meta name="description" content="About this app" />
+</svelte:head>
+
+
+<div class="text-column">
+	<h1>About Us</h1>
+
+	<p>
+		We are a team of Quant Researchers, Data and Software Engineers 
+		wtih backgrounds in Computer Science and Information Systems.
+	</p>
+
+	<pre>npx sv create</pre>
+
+	<p>
+		Over the years we have build a wide range of trading solutions, some of which are 
+		now available.  
+	</p>
+
+	<p>
+		We consider acessability, fairness and transparency obligation for the domain of 
+		finance and economics. The exploitative and skewed nature of the current financial 
+		infrastructure sacrifices the masses and underdeveloped countries for the benefit 
+		of a few. sounds familiar? ponzi mlm which is exactly what fiat is
+		While cryptocurrencies and defi initially aimed to address the shortcomings of fiat
+		the pace of innovation and interconnectedness with traditional finance leaves the
+		end-user at hgiher risk than ever before.  
+	</p>
+</div>
+
+<i class="fa-solid fa-quote-left"></i>
+		
+<fieldset>
+  <legend>Contact me</legend>
+  <div class="form-control">
+	<label for="name">Name</label>
+	<input type="name" id="name" placeholder="Enter your name" required />
+  </div>
+
+  <div class="form-control">
+	<label for="email">Email</label>
+	<input
+	  type="email"
+	  id="email"
+	  placeholder="Enter your email"
+	  required
+	/>
+  </div>
+
+  <div class="form-control">
+	<label for="message">Message</label>
+	<textarea
+	  id="message"
+	  cols="30"
+	  rows="10"
+	  placeholder="Enter your message"
+	  required
+	></textarea>
+  </div>
+  <a href="mailto:youremail@example.com?subject=Contact Us&body=Hi,%0D%0A I would like to get in touch." class="email-button">Contact Us</a>
+</fieldset>
+
+<style>
+input,
+textarea {
+	width: 100%;
+	padding: 5px;
+	outline: none;
+	}
+
+label {
+line-height: 1.9rem;
+}
+
+input[type="submit"] {
+transform: translate(2.2%);
+padding: 3px;
+margin-top: 0.6rem;
+font-family: cursive;
+font-weight: bold;
+}
+
+fieldset {
+padding: 20px 40px;
+}
+
+</style>
