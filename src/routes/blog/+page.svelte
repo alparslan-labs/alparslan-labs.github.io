@@ -4,20 +4,21 @@
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     <div> 
-        <p>
-        title="Australia: Adventure Down Under" 
-        excerpt="Embark on an unforgettable journey through Australia's diverse landscapes..."
-        imageUrl="https://t4.ftcdn.net/jpg/06/27/51/59/240_F_627515933_PChkBWmUKzJECq7rJgP2iBpnMZnX2aOD.jpg?height=300&width=600"
-        </p>
+    Farming Humans
+    While AI should serve humanity (atleast in our view) there are people who do their best 
+    to channel R&D efforts in another direction. With recent advancs in AI and the shift
+     towards generative AI, all available data sources have been exploited hoping to
+      build AGI (Artificial General Intelligence) not worrying 
+    about the consequences. As a result, data protection regulations are ignored and 
+    systems design is increasingly addressed at data collection for model training.
+    
     </div>
     <div> 
-    title="Australia: Adventure Down Under" 
-    excerpt="Embark on an unforgettable journey through Australia's diverse landscapes..."
-    imageUrl="https://t4.ftcdn.net/jpg/06/27/51/59/240_F_627515933_PChkBWmUKzJECq7rJgP2iBpnMZnX2aOD.jpg?height=300&width=600"
+    Blockchain
+    
     </div>
     <div> 
-        title="Australia: Adventure Down Under" 
-        excerpt="Embark on an unforgettable journey through Australia's diverse landscapes..."
-        imageUrl="https://t4.ftcdn.net/jpg/06/27/51/59/240_F_627515933_PChkBWmUKzJECq7rJgP2iBpnMZnX2aOD.jpg?height=300&width=600"
+    Islamic Finance
+
     </div>
 </div>
