@@ -2,7 +2,8 @@
 	import Header from './Header.svelte';
 	import '../app.css';
 	//import Footer from './Footer.svelte'
-	import logo from '$lib/images/eagle.png'
+	import logo from '$lib/images/eagle.png';
+	import { base } from '$app/paths';
 
 	let { children } = $props();
 </script>
@@ -21,17 +22,17 @@
 			<div class="footer-column">
 				<h3>Topics</h3>
 				<ul>
-					<li><a href="/company">Company</a></li>
-					<li><a href="/products">Products</a></li>
-					<li><a href="/research">Research</a></li>
+					<li><a href="{ base }/company">Company</a></li>
+					<li><a href="{ base }/products">Products</a></li>
+					<li><a href="{ base }/research">Research</a></li>
 				</ul>
 			</div>
 			<!-- Column 1 -->
 			<div class="footer-column">
 				<h3>Solutions</h3>
 				<ul>
-					<li><a href="/HARP">HARP</a></li>
-					<li><a href="/QADR">QADR</a></li>
+					<li><a href="{ base }/HARP">HARP</a></li>
+					<li><a href="{ base }/QADR">QADR</a></li>
 				</ul>
 			</div>
 		
@@ -39,13 +40,13 @@
 			<div class="footer-column">
 				<h3>Company</h3>
 				<ul>
-					<li><a href="/about">About</a></li>
-					<li><a href="/blog">Blog</a></li>
-					<li><a href="/codex">Codex</a></li>
-					<li><a href="#">Carreers </a></li>
-					<li><a href="#">Roadmap</a></li><!--https://userwell.com/software-release-life-cycle-->
+					<li><a href="{ base }/about">About</a></li>
+					<li><a href="{ base }/blog">Blog</a></li>
+					<li><a href="{ base }/codex">Codex</a></li>
+					<!--<li><a href="#">Carreers </a></li>
+					<li><a href="#">Roadmap</a></li>https://userwell.com/software-release-life-cycle
 					<li><a href="#">Legal</a></li>
-					<!--<li><a href="#">Branded Assets</a></li>
+					<li><a href="#">Branded Assets</a></li>
 					<li><a href="#">Trademark Policy</a></li>
 					<li><a href="#">Privacy Policy</a></li>					
 					<li><a href="#">Terms of Service</a></li>			
@@ -59,16 +60,16 @@
 			<div class="footer-column">
 				<h3>Support</h3>
 				<ul>
-					<li><a href="#">Help Center</a></li>
-					<li><a href="#">Contact</a></li>	
-					<li><a href="#">Feedback</a></li>
-					<li><a href="#">Help Center</a></li>
+					<li><a href="{ base }/">Help Center</a></li>
+					<li><a href="{ base }/">Contact</a></li>	
+					<li><a href="{ base }/">Feedback</a></li>
+					<li><a href="{ base }/">Help Center</a></li>
 				</ul>
 			</div>
 
 			<div class="footer-column">
 
-				<a href="/">
+				<a href="{ base }/">
 					<img src={logo} alt="Seljuq" width="25px"/>
 				</a>
 			</div>
