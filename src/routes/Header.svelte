@@ -1,8 +1,10 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	//import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
 	import logo from '$lib/images/eagle.png'
+	//import SideBarNav from '../components/SideBarNav.svelte';
 </script>
 
 
@@ -11,8 +13,8 @@
 <header>
 
 	<div class="corner">
-		<a href="/">
-			<img src={logo} alt="Seljuq" />
+		<a href="{ base }/">
+			<img src={ logo } alt="Seljuq" />
 		</a>
 	</div>
 
@@ -45,8 +47,8 @@
 	-->
 	
 	<div class="w3-sidebar w3-bar-block w3-large" style="width:42px; right: 0; position: fixed; background-color: transparent;">		
-		<a href="/" class="w3-bar-item w3-button" aria-label="Home"><i class="fa fa-home"></i></a> 
-		<a href="/" class="w3-bar-item w3-button" aria-label="Messages"><i class="fa fa-envelope"></i></a> 
+		<a href="{ base }/" class="w3-bar-item w3-button" aria-label="Home"><i class="fa fa-home"></i></a> 
+		<a href="{ base }/" class="w3-bar-item w3-button" aria-label="Messages"><i class="fa fa-envelope"></i></a> 
 		<a href="http://d4t-e2h8.onrender.com" class="w3-bar-item w3-button" aria-label="Portfolio"><i class="fa fa-pie-chart"></i></a> 
 		<a href="http://d4t-e2h8.onrender.com" class="w3-bar-item w3-button" aria-label="ff"><i class="fa-solid fa-chart-line"></i></a> 
 		<a href="http://d4t-e2h8.onrender.com" class="w3-bar-item w3-button" aria-label="ff"><i class="fa fa-solid fa-chart-simple"></i></a> 

@@ -1,5 +1,6 @@
 <script>
     //import { base } from "$app/paths";
+    import { base } from '$app/paths';
     import nnetfast from '$lib/images/nnetfast.gif';
     import nnetslow from '$lib/images/nnetslow.gif';    
     import hyperplane from '$lib/images/hyperplane.gif';
@@ -60,7 +61,7 @@
     <section class="graphic" style="pointer-events: none;">
         <img class="overlay" alt="alt" src={nnetfast} draggable=false style="width:280px; height:auto;">
         <img src={hyperplane} alt="alt" style="width:280px; height:auto;">   
-        <link href="tablogo">
+        <!--<link href="tablogo">-->
     </section>
     <br>
     <!--
