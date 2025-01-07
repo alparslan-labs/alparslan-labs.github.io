@@ -1,0 +1,1 @@
+import{a as o,t as s}from"../chunks/disclose-version.B2yMix-o.js";import"../chunks/legacy.UvUUHh14.js";import{n as t}from"../chunks/runtime.ChELR0fC.js";var f=s('<i class="fa-solid fa-info"></i> <i class="fa-solid fa-question"></i> <i class="fa-brands fa-readme"></i> <i class="fa-solid fa-exclamation"></i>',1);function m(a){var i=f();t(6),o(a,i)}export{m as component};
