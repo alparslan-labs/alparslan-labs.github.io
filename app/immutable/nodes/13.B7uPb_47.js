@@ -1,7 +1,0 @@
-import{d as i}from"../chunks/index.Cs7UgHMF.js";import{a as e,t}from"../chunks/disclose-version.B2yMix-o.js";import"../chunks/legacy.UvUUHh14.js";import{$ as n,n as p}from"../chunks/runtime.ChELR0fC.js";import{h as l}from"../chunks/svelte-head.BODz-TJf.js";const m=i,c=!0,y=Object.freeze(Object.defineProperty({__proto__:null,csr:m,prerender:c},Symbol.toStringTag,{value:"Module"}));var u=t('<meta name="description" content="About this app">'),d=t(`<div class="top-area"><h1>QADR</h1></div> <div class="text-column"><h3>Preprosessing</h3> <p>Populate financial time series with a single line of code.</p> <h3>Automate Strategy Research</h3> <p>Let algortihms generate trading strategies.</p> <pre>npx sv create</pre> <h3>Portfolio Optimization</h3> <p>Create robust portfolios that outperform market benchmarks in and out of sample.
-        Get access to propietary machine learning approaches. Explore quantum advantage.</p> Get a custom demo. Discover the value of Vercel for your enterprise and explore our custom plans and pricing.
-
-	Set up your Enterprise trial. See for yourself how Vercel Enterprise speeds up your workflow & impact.</div> <i class="fa-solid fa-dumbbell"></i> <i class="fa-solid fa-robot"></i> asset managers 
-in  Build systematic trading systems with a handful of lines of code. 
-
-	convenient performant`,1);function _(a){var o=d();l(r=>{var s=u();n.title="About",e(r,s)}),p(7),e(a,o)}export{_ as component,y as universal};
