@@ -1,0 +1,1 @@
+const s=""+new URL("../assets/ai-brain.sq930hCA.svg",import.meta.url).href,a=""+new URL("../assets/blockchain.CHhpCaVy.svg",import.meta.url).href,t=""+new URL("../assets/quantum-chip.CNqoxSp2.svg",import.meta.url).href;export{s as a,a as b,t as q};
