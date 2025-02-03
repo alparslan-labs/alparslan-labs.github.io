@@ -1,4 +1,5 @@
-import"../chunks/disclose-version.Bg9kRutz.js";import"../chunks/legacy.CtaTdtmd.js";import{$ as s,n as r}from"../chunks/runtime.CkZ10TKx.js";import{h as l}from"../chunks/svelte-head.DdHCPlh0.js";import{a as e,t as i}from"../chunks/template.BsQ56n95.js";var c=i('<meta name="description" content="Svelte demo app">'),d=i(`<div class="top-area"><h1>Blog</h1> <h4>Articles</h4> <br> <br></div> <section><div class="text-column"><article><h3>AI and Machine Learning: Transforming Investing Through Automation</h3> <p>Artificial intelligence (AI) and machine learning (ML) are revolutionizing 
+import"../chunks/disclose-version.Bg9kRutz.js";import"../chunks/legacy.CtaTdtmd.js";import{$ as s,n as r}from"../chunks/runtime.CkZ10TKx.js";import{h as l}from"../chunks/svelte-head.DdHCPlh0.js";import{a as e,t as i}from"../chunks/template.BsQ56n95.js";var d=i('<meta name="description" content="Svelte demo app">'),c=i(`<div class="top-area"><h1>Blog</h1> <h4>Articles</h4> <br> <br></div> <table><tbody><tr><td>rrrrrr</td><td><img style="box-shadow: inset 0 0 0.5em 0.5em indigo,
+0 0 0.5em 0.5em indigo; height: 200px; width: auto" src="https://designindc.com/wp-content/uploads/2022/12/Machine-Learning.jpg" alt=""></td></tr></tbody></table> <div style="height: 200px;"></div> <section><div class="text-column"><article><h3>AI and Machine Learning: Transforming Investing Through Automation</h3> <p>Artificial intelligence (AI) and machine learning (ML) are revolutionizing 
               the way investors manage portfolios and execute trading strategies. By 
               leveraging vast datasets and sophisticated algorithms, these technologies 
               enable faster, more accurate, and data-driven decision-making, empowering 
@@ -30,4 +31,4 @@ import"../chunks/disclose-version.Bg9kRutz.js";import"../chunks/legacy.CtaTdtmd.
                their ethical deployment and interpretability remain essential for building
                 trust and ensuring long-term success. As AI continues to evolve, its role
                  in investing will only grow, offering smarter, more accessible tools for
-                  investors worldwide.</p></article></div></section>`,1);function v(a){var t=d();l(n=>{var o=c();s.title="Blog",e(n,o)}),r(2),e(a,t)}export{v as component};
+                  investors worldwide.</p></article></div></section>`,1);function v(a){var t=c();l(n=>{var o=d();s.title="Blog",e(n,o)}),r(6),e(a,t)}export{v as component};
